@@ -11,6 +11,13 @@ main {
     width: 800px;
 }
 
+.masthead {
+    background-image: url('Assets/Untitled.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;
+    border-radius: 20px;
+}
 .details {
     display: flex;
     gap: 25px;
@@ -20,19 +27,21 @@ main {
     flex-grow: 1;
     flex-basis: 0;
     background: #eee;
-    padding: 20px;
+    padding: 25px;
     border-radius: 20px;
+    margin-top: 25px;
 }
 
 img {
     width: 100%;
+    border-radius: 20px;
 }
 
 h2 {
     margin: 0 0 10px 0;
-
 }
 
 p {
     margin: 0;
+    line-height: 1.4em;
 }
